@@ -22,7 +22,7 @@ a{
 .menu.desktop{
     background: linear-gradient(to bottom, #000, transparent);
     width: 100%;
-    height: 75px;
+    height: 100px;
     box-sizing: border-box;
     padding: 0 10%;
     display: flex;
@@ -30,10 +30,14 @@ a{
     align-items: center;
 }
 .logo{
-    height: 100%;
-    width: 100px;
-    background-color: rgba(255, 255, 255, 0.05);
+    height: 70%;
+    width: 275px;
+   
     position: relative;
+    background-image: url(../IMG/logo_orange.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .navigation{
@@ -109,6 +113,10 @@ a{
     background-color: rgba(255, 68, 0, 0.66);
     border: none;
     border-radius: 1000px;
+    background-image: url(../IMG/play_icon.png);
+    background-position: center;
+    background-size: 33.33%;
+    background-repeat: no-repeat;
 }
 .main_video{
     width: 100%;
@@ -156,3 +164,58 @@ a{
     color: white;
     transform: rotate(90deg);
 }
+
+.background{
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer_info.background{
+    width: 100%;
+    height: 45%;
+    background-image: url(../IMG/footer_banner.png);
+    background-size: cover;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.footer_info h2, .footer_info > p{
+    margin-bottom: 2.5%;
+}
+.footer_info h2{
+    font-size: 36px;
+}
+.footer_info p{
+    font-size: 18px;
+}
+
+.social_medias{
+    display: flex;
+    justify-content: center;
+}
+.social_medias a{
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+.social_medias a svg{
+    width: 100%;
+    height: 100%;
+}
+
+.social_medias a svg path{
+    fill: white;
+}
+
+.social_medias a:hover svg path{
+    fill: orangered;
+}
+
+
