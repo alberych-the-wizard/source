@@ -82,9 +82,7 @@ a{
     border: 2px solid #fb8a15;
     box-sizing: border-box;
 }
-.menu.desktop > .mobile_btn{
-    display: none;
-}
+
 .mobile_btn_menu{
     display: none;
 }
