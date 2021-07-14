@@ -38,6 +38,14 @@ window.onscroll = function(){
     scroll_to();
 }
 
+let play_video = document.getElementById('myVideo');
+
+window.onload = function(){
+    play_video.autoplay = true;
+    play_video.loop = true;
+    play_video.load();
+}
+
 /*var player_btn = document.querySelector(".player_btn");
 let change_player_text = document.querySelector(".player_text");
 player_btn.onmouseover = function(){
